@@ -63,10 +63,11 @@ html, body {
     font-weight: bolder;
 }
 
+/* Styling text of list */
 .nav.navbar-nav li a {
     color: white;
     margin-left: 60px;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .nav.navbar-nav li a:visited {
@@ -88,6 +89,35 @@ html, body {
 .icon-bar {
     background: white;
 }
+
+.icon {
+    padding-top: 20px;
+}
+
+.icon ul {
+    padding: 0; /* to center social media icons */
+}
+
+.icon-list {
+    text-align: center;
+}
+
+.icon-list li {
+    display: inline-block;
+}
+
+.icon-list li a {
+    font-size: 25px; /* Icon is a font so change font size to increase dimension*/
+    margin: 0 5px;
+    color: white;
+}
+
+.icon .icon-list li a:hover {
+    transform: rotateY(360deg);
+}
+
+
+
 
 
 
