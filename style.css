@@ -6,7 +6,7 @@ html, body {
 #header {
     padding-top: 150px;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-image: url("Images/lights.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ html, body {
 
 #name {
     color: white;
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 250%;
 }
@@ -36,7 +36,7 @@ html, body {
 #description {
     text-align: center;
     color: white;
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin-top: -5px;
     padding-left: 5px;
     font-size: small;
@@ -59,7 +59,7 @@ html, body {
 
  /* Navigation text */
 .nav.navbar-nav li {
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
 
@@ -121,6 +121,30 @@ html, body {
     transition: .5s ease-in;
     color: white;
     background: black;
+}
+
+.cvbutton {
+    text-align: center;
+    padding-top: 20px;
+}
+#cvbutton {
+    background: transparent;
+    border: 1px solid white;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#cvbutton:hover {
+    transition: .5s ease-in;
+    background: black;
+    color: white;
+}
+
+#cvbutton > a {
+    text-decoration: none;
+    color: white;
 }
 
 
