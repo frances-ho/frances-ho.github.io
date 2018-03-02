@@ -139,8 +139,8 @@ html, body {
 
 #cvbutton:hover {
     transition: .5s ease-in;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }
 
 #cvbutton > a {
