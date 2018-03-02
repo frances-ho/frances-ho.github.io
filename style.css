@@ -76,8 +76,8 @@ html, body {
 
 .nav.navbar-nav li a:hover {
     background-color: transparent;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid white;
+    color: white;
     transition: .8s ease; /* delays for 1 second */
     -webkit-transition: .8s ease; /* for Safari & Chrome */
 }
@@ -140,12 +140,11 @@ html, body {
 #cvbutton:hover {
     transition: .5s ease-in;
     background: white;
-    color: black;
 }
 
 #cvbutton > a {
     text-decoration: none;
-    color: white;
+    color: rgb(55, 172, 172);
 }
 
 /* Shadow style for about me container */
