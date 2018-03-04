@@ -84,7 +84,7 @@ html, body {
 
 .nav.navbar-nav li a:focus {
     background-color: transparent;
-    color: rgb(55, 172, 172);
+    color: rgb(187, 159, 1);
 }
 
 .icon-bar {
@@ -144,7 +144,7 @@ html, body {
 
 #cvbutton > a {
     text-decoration: none;
-    color: rgb(55, 172, 172);
+    color: rgb(187, 159, 1);
 }
 
 /* Shadow style for about me container */
