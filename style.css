@@ -84,7 +84,7 @@ html, body {
 
 .nav.navbar-nav li a:focus {
     background-color: transparent;
-    color: black;
+    color: rgb(55, 172, 172);
 }
 
 .icon-bar {
@@ -149,24 +149,20 @@ html, body {
 
 /* Shadow style for about me container */
 .aboutme{
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 10px 10px 6px -6px black;
+    
+    
     width: 700px;
     margin: 20px auto;
     padding-left: 20px;
 }
 
-.aboutme:hover {
-    background-color: black;
-    color: white;
-    transition: .5s ease;
-}
+
 
 #aboutmeline {
     width: 650px;
     margin-left: 0px;
     margin-top: -10px;
-    border: 0.5px solid rgb(194, 194, 194);
+    border: 0.5px solid black;
 }
 
 #aboutmeheader {
@@ -175,7 +171,39 @@ html, body {
 
 #aboutme {
     font-family: 'Raleway';
+    text-align: center;
 }
+
+/*Add custom cursor so it auto inherits font styles*/
+#typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+#typed-cursor{
+    opacity: 0;
+     display: none;
+ }
+ /*Custom cursor animation*/
+ @keyframes blink{
+     0% { opacity:1; }
+     50% { opacity:0; }
+     100% { opacity:1; }
+ }
+ @-webkit-keyframes blink{
+     0% { opacity:1; }
+     50% { opacity:0; }
+     100% { opacity:1; }
+ }
+ @-moz-keyframes blink{
+     0% { opacity:1; }
+     50% { opacity:0; }
+     100% { opacity:1; }
+ }
 
 
 

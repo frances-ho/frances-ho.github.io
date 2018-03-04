@@ -1,4 +1,13 @@
-$("#aboutmeheader").typeIt({
-    strings: 'Nice to meet you.',
-    speed: 10
+
+$(document).ready(function(){
+
+    new Typed('#typed', {
+        strings: ["Nice to meet you."],
+        typeSpeed: 90,
+        loop: true,
+        backDelay: 5000,
+        showCursor: false
+      });
+
 });
+
