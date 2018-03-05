@@ -27,7 +27,7 @@ html, body {
 
 #name {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway';
     text-align: center;
     font-size: 250%;
 }
@@ -36,7 +36,7 @@ html, body {
 #description {
     text-align: center;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway';
     margin-top: -5px;
     padding-left: 5px;
     font-size: small;
@@ -59,7 +59,7 @@ html, body {
 
  /* Navigation text */
 .nav.navbar-nav li {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway';
     font-weight: bolder;
 }
 
@@ -134,7 +134,7 @@ html, body {
     width: 120px;
     height: 50px;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway';
 }
 
 #cvbutton:hover {
@@ -166,7 +166,7 @@ html, body {
 }
 
 #aboutmeheader {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway';
 }
 
 #aboutme {
